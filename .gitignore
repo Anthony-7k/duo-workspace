@@ -1,0 +1,16 @@
+# Local dependencies and temporary files
+node_modules/
+.qa/
+__pycache__/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Credentials and provider-local metadata
+.env
+.env.*
+!.env.example
+.openai/
+*.pem
+*.key
